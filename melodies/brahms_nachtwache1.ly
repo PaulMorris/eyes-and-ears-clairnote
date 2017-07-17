@@ -8,7 +8,8 @@
   meter = "Langsam"
 }%}
 %{\tempo 4=100
-%}\score{{\key b \minor
+%}
+\score{{\key b \minor
 \relative c''  {
 %1
 \time 4/4

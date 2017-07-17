@@ -7,7 +7,8 @@
   source = "Breitkopf & Hartel, 1895"
 }%}
 %{\tempo 8 = 130
-%}\score{{\key g\major
+%}
+\score{{\key g\major
 \relative b'  {
 \partial 16*2
 \time 2/4

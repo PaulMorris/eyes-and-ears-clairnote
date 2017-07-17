@@ -5,7 +5,8 @@
   enteredby = "Ben Crowell"
 }%}
 %{\tempo 4 = 120
-%}\score{{\key c \major
+%}
+\score{{\key c \major
 \clef bass
 \relative g  {
   \partial 4

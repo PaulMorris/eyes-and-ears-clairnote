@@ -6,7 +6,8 @@
  maintainer = 	"Allen Garvin"
 }%}
 %{\tempo 4 = 50
-  %}\score{{\key c \minor
+  %}
+\score{{\key c \minor
 \relative c''  {
   \partial 8*7
   c16[ b]  c d ees g,   aes bes aes f   f' es d c  |		% bar 1

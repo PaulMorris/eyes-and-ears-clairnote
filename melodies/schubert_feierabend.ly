@@ -8,7 +8,8 @@
 }%}
 
 %{\tempo 8 = 280
-%}\score{{\key a\minor
+%}
+\score{{\key a\minor
 \time 6/8
 \relative e'  {
 \partial 8*2  e8 e | c'4 b8 a gis a | b4 e,8 r e' d | c8. b16 a8 a4 f'8 |
