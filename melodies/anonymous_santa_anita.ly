@@ -1,6 +1,6 @@
 \version "2.19.49"
 %{\header {
-  title = "V\'{a}monos por Santa Anita"
+  title = "Vámonos por Santa Anita"
   composer = "anonymous"
   enteredby = "B. Crowell"
   source = "Spanish-American Folk-Songs, ed. Eleanor Hague, G. E. Stechert & Co., 1917"
