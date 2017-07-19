@@ -21,7 +21,7 @@
 %}\relative c' {
  \partial 4
  f4 | f g a bes | c2 c4  c | d c bes c | a2 r4
- c4 | bes a g bes | a() g f  a | g f g g | f2 r4
+ c4 | bes a g bes | a g f  a | g f g g | f2 r4
  \bar "||"
 }
 }}
