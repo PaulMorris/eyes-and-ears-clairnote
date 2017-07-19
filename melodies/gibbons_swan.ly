@@ -13,8 +13,8 @@
 	maintainerEmail = "music@chubb.wattle.id.au"
 	lastupdated = "2003/May/9"
 }%}
-\time 4/4
 	\score{{\key f \major
+        \time 4/4
         \relative c''  {
 	c4 \mp c d | 
 	e2. f4 |
