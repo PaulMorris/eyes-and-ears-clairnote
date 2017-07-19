@@ -11,7 +11,7 @@
 %{\tempo 4=120
 %}\relative bes' {
   \partial 4
-  bes | bes8 c d4 c bes | c4 c d bes8 c | d4 es f8 es d4 | c2 bes4 \bar ":|." d4 |
+  bes4 | bes8 c d4 c bes | c4 c d bes8 c | d4 es f8 es d4 | c2 bes4 \bar ":|." d4 |
   d4 c bes a | bes8 c d4 c c | bes4 a bes f | bes c d bes8 c | d4 es f8 es d4 | c2 bes
   \bar "||"
 }
