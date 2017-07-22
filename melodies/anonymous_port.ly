@@ -1,6 +1,6 @@
 \version "2.19.49"
 %{\header {
-  title = "Dans le Port, Il Est Arrive-/ (France)"
+  title = "Dans le Port, Il Est Arrivé (France)"
   composer = "anonymous"
   enteredby = "B. Crowell"
   source = "Thierry Klein, http://ourworld.compuserve.com/homepages/Thierry_Klein/"

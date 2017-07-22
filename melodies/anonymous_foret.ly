@@ -1,6 +1,6 @@
 \version "2.19.49"
 %{\header {
-  title = "Dans la Fore-^t Lointaine (France)"
+  title = "Dans la Forêt Lointaine (France)"
   composer = "anonymous"
   enteredby = "B. Crowell"
   source = "Thierry Klein, http://ourworld.compuserve.com/homepages/Thierry_Klein/"

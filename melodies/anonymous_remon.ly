@@ -1,6 +1,6 @@
 \version "2.19.49"
 %{\header {
-  title = "Re-/mon (Louisiana)"
+  title = "Rémon (Louisiana)"
   composer = "anonymous"
   enteredby = "B. Crowell"
   source = "Slave Songs of the United States,  William Francis Allen, Charles Pickard Ware, and Lucy McKim Garrison, New York, A. Simpson & Co., 1867"

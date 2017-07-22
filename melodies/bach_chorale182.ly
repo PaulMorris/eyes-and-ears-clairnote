@@ -1,6 +1,6 @@
 \version "2.19.49"
 %{\header {
-  title = "Chorale, `Wie bist du Seele in mir so gar betru:bt'"
+  title = "Chorale, `Wie bist du Seele in mir so gar betrübt'"
   composer = "J.S. Bach"
   copyright = "Public Domain"
   enteredby = "B. Crowell"

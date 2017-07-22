@@ -1,6 +1,6 @@
 \version "2.19.49"
 %{\header {
-  title = "Ah! Mon Beau Cha-^teau! (France)"
+  title = "Ah! Mon Beau Château! (France)"
   composer = "anonymous"
   enteredby = "B. Crowell"
   source = "Thierry Klein, http://ourworld.compuserve.com/homepages/Thierry_Klein/"

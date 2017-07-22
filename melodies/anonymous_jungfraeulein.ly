@@ -1,6 +1,6 @@
 \version "2.19.49"
 %{\header {
-  title = "Jungfra:ulein, Soll Ich Mit Euch Gehn"
+  title = "Jungfrälein, Soll Ich Mit Euch Gehn"
   composer = "anonymous"
   enteredby = "B. Crowell"
   source = "Brahms, Detsche Volkslieder"

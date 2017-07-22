@@ -1,6 +1,6 @@
 \version "2.19.49"
 %{\header {
-  title = "Chorale, `Wa:r' Gott Nicht Mit Uns Diese Zeit'"
+  title = "Chorale, `Wär' Gott Nicht Mit Uns Diese Zeit'"
   composer = "J.S. Bach"
   copyright = "Public Domain"
   enteredby = "B. Crowell"

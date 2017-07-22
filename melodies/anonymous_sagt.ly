@@ -1,6 +1,6 @@
 \version "2.19.49"
 %{\header {
-  title = "Sagt Mir, O Scho:nste Scha:f'rin Mein"
+  title = "Sagt Mir, O Schönste Schäf'rin Mein"
   composer = "anonymous"
   enteredby = "B. Crowell"
   source = "Brahms, Detsche Volkslieder"

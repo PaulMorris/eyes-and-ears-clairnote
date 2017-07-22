@@ -1,6 +1,6 @@
 \version "2.19.49"
 %{\header {
-  title = "Gia-` il Sole dal Gange"
+  title = "Già il Sole dal Gange"
   composer = "Alessandro Scarlatti (1649-1725)"
   enteredby = "B. Crowell"
   source = "Anthology of Italian Song of the 17th and 18th Centuries, ed. Alessandro Perisotti, Schirmer, 1894"

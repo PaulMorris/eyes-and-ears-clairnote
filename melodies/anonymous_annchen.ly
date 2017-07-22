@@ -1,6 +1,6 @@
 \version "2.19.49"
 %{\header {
-  title = "A:nnchen von Tharau (Germany)"
+  title = "Ännchen von Tharau (Germany)"
   composer = "anonymous"
   enteredby = "B. Crowell"
 }%}

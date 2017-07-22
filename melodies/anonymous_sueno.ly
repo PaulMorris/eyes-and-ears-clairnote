@@ -1,6 +1,6 @@
 \version "2.19.49"
 %{\header {
-  title = "Mi Suen~o (Mexico)"
+  title = "Mi Sueño (Mexico)"
   composer = "anonymous"
   enteredby = "B. Crowell"
   source = "Spanish-American Folk-Songs, ed. Eleanor Hague, G. E. Stechert & Co., 1917"

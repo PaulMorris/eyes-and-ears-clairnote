@@ -1,6 +1,6 @@
 \version "2.19.49"
 %{\header {
-  title = "Chorale, `Seelenbra:utigam, Jesu, Gottes Lamm'"
+  title = "Chorale, `Seelenbräutigam, Jesu, Gottes Lamm'"
   composer = "J.S. Bach"
   copyright = "Public Domain"
   enteredby = "B. Crowell"

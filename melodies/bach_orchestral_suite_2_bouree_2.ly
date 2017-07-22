@@ -1,6 +1,6 @@
 \version "2.19.49"
 %{\header {
-  title = "Bourre-/e II from orchestral suite #2"
+  title = "Bourrée II from orchestral suite #2"
   composer = "J.S. Bach"
   copyright = "Public Domain"
   enteredby = "B. Crowell"

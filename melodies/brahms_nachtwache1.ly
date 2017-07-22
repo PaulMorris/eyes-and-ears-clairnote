@@ -3,7 +3,7 @@
   copyright = "MutopiaBSD"
   title = "Nachtwache 1"
   composer = "Johannes Brahms"
-  poet = "Friedrich Ru:ckert"
+  poet = "Friedrich Rückert"
   opus = "op. 104"
   meter = "Langsam"
 }%}

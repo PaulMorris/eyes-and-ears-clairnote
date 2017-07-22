@@ -1,6 +1,6 @@
 \version "2.19.49"
 %{\header {
-  title = "Chorale, `Wenn wir in ho:chsten No:ten sein'"
+  title = "Chorale, `Wenn wir in höchsten Nöten sein'"
   composer = "J.S. Bach"
   copyright = "Public Domain"
   enteredby = "B. Crowell"
