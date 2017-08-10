@@ -1,0 +1,25 @@
+\version "2.19.49"
+%{\header {
+  title = "Ah! Mon Beau Château! (France)"
+  composer = "anonymous"
+  enteredby = "B. Crowell"
+  source = "Thierry Klein, http://ourworld.compuserve.com/homepages/Thierry_Klein/"
+}%}
+anonymous_chateau =
+#'((title . "Ah! Mon Beau Château! (France)")
+  (composer . "anonymous")
+  (timesig . "2/4")
+  (keytonic . "a")
+  (keytype . "major"))
+anonymous_chateau_score = \score{{\key a \major
+\time 2/4
+%{\tempo 8=150
+%}\relative e' {
+  \partial 4
+  e8^\markup{\column { "Moderato" " " }} e | a4 cis | e d8 cis | d b a gis |
+  a a e e | a4 cis | e d8 cis | d b a gis | a4 cis8 cis | a4 cis | b a8 gis | fis e fis gis |
+  a a cis cis | a4 cis | b a8 gis | fis e fis gis | a4
+  \bar "||"
+}
+
+}}
