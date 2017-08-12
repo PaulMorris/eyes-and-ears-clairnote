@@ -20,8 +20,8 @@
         "ddddmsff — 117"
         "ddddslsd — 78"
         "dddrrrmd — 139"
-        "dddrrmmf — 29"
-        "dddmdsmm — 193;"
+        "dddrrmmf — 29; 413"
+        "dddmdsmm — 193; 424"
         "dddmmssm — 310"
         "dddmssll — 245"
         "dddsmmrd — 213"
@@ -46,7 +46,7 @@
         "ddsdrmfs — 304"
         "ddssddll — 256"
         "ddtdrdrm — 55"
-        "ddtlsdrm — 120"
+        "ddtlsdrm — 120; 243"
         "ddtltddt — 49"
         "ddtltdrm — 352"
         "ddtltlls — 52"
@@ -58,7 +58,7 @@
         "drmdddrm — 150"
         "drmdrmrm — 187"
         "drmrdtdr — 175"
-        "drmrmfmf — 28"
+        "drmrmfmf — 28; 412"
         "drmrmfsf — 31"
       }
       \column {
