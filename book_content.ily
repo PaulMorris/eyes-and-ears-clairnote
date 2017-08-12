@@ -1,7 +1,7 @@
 \bookpart {
 \header {
-chapter-number = "Chapter 1"
-chapter-title = "Rhythm"
+footer-text-even = "Chapter 1"
+footer-text-odd = "Rhythm"
 }
 \tocChapter \chapterString "Chapter 1" "Rhythm"
 \tocbChapter \chapterString "Chapter 1" "Rhythm"
@@ -191,8 +191,8 @@ chapter-title = "Rhythm"
 }
 \bookpart {
 \header {
-chapter-number = "Chapter 2"
-chapter-title = "Major Keys"
+footer-text-even = "Chapter 2"
+footer-text-odd = "Major Keys"
 }
 \tocChapter \chapterString "Chapter 2" "Major Keys"
 \tocbChapter \chapterString "Chapter 2" "Major Keys"
@@ -1070,8 +1070,8 @@ chapter-title = "Major Keys"
 }
 \bookpart {
 \header {
-chapter-number = "Chapter 3"
-chapter-title = "Minor Keys"
+footer-text-even = "Chapter 3"
+footer-text-odd = "Minor Keys"
 }
 \tocChapter \chapterString "Chapter 3" "Minor Keys"
 \tocbChapter \chapterString "Chapter 3" "Minor Keys"
@@ -1443,8 +1443,8 @@ chapter-title = "Minor Keys"
 }
 \bookpart {
 \header {
-chapter-number = "Chapter 4"
-chapter-title = "Other Diatonic Materials"
+footer-text-even = "Chapter 4"
+footer-text-odd = "Other Diatonic Materials"
 }
 \tocChapter \chapterString "Chapter 4" "Other Diatonic Materials"
 \tocbChapter \chapterString "Chapter 4" "Other Diatonic Materials"
@@ -2235,8 +2235,8 @@ chapter-title = "Other Diatonic Materials"
 }
 \bookpart {
 \header {
-chapter-number = "Chapter 5"
-chapter-title = "Nondiatonic Materials"
+footer-text-even = "Chapter 5"
+footer-text-odd = "Nondiatonic Materials"
 }
 \tocChapter \chapterString "Chapter 5" "Nondiatonic Materials"
 \tocbChapter \chapterString "Chapter 5" "Nondiatonic Materials"
@@ -2551,8 +2551,8 @@ chapter-title = "Nondiatonic Materials"
 }
 \bookpart {
 \header {
-chapter-number = "Chapter 6"
-chapter-title = "The C Clef"
+footer-text-even = "Chapter 6"
+footer-text-odd = "The C Clef"
 }
 \tocChapter \chapterString "Chapter 6" "The C Clef"
 \tocbChapter \chapterString "Chapter 6" "The C Clef"

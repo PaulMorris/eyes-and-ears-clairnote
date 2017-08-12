@@ -47,8 +47,8 @@ def get_chapter_string(chapter_match):
     chapstr = "\\chapterString \"Chapter " + chapnum + "\" \"" + title + "\""
     return "\\bookpart {\n" + \
            "\\header {\n" + \
-           "chapter-number = \"Chapter " + chapnum + "\"\n" + \
-           "chapter-title = \"" + title + "\"\n" + \
+           "footer-text-even = \"Chapter " + chapnum + "\"\n" + \
+           "footer-text-odd = \"" + title + "\"\n" + \
            "}\n" + \
            "\\tocChapter " + chapstr + "\n" + \
            "\\tocbChapter " + chapstr + "\n" + \

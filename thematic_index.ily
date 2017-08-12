@@ -3,8 +3,8 @@
 \bookpart {
 
   \header {
-    chapter-number = "Thematic Index"
-    chapter-title = "Thematic Index"
+    footer-text-even = "Thematic Index"
+    footer-text-odd = "Thematic Index"
   }
 
   \markup \huge \column {

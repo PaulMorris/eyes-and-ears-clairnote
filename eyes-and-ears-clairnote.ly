@@ -19,14 +19,14 @@
   bottom-margin = 0.40 \in
   left-margin = 0.60 \in
   right-margin = 0.60 \in
-  
+
   first-page-number = -12
 
   oddHeaderMarkup = \markup \null
   evenHeaderMarkup = \markup \null
   oddFooterMarkup = \markup {
     \justify-line {
-      \fromproperty #'header:chapter-title
+      \fromproperty #'header:footer-text-odd
       \on-the-fly #(on-page-greater-than 0)
       \fromproperty #'page:page-number-string
 
@@ -36,7 +36,7 @@
     \justify-line {
       \on-the-fly #(on-page-greater-than 0)
       \fromproperty #'page:page-number-string
-      \fromproperty #'header:chapter-number
+      \fromproperty #'header:footer-text-even
     }
   }
 }
@@ -79,9 +79,9 @@ inc-counter = #(lambda () (set! counter (+ 1 counter)))
 \bookpart {
 
   \header {
-    chapter-number = "Index"
-    chapter-title = "Index"
+    footer-text-even = "Index"
+    footer-text-odd = "Index"
   }
-  
+
   \markuplist \index-markup-list
 }
