@@ -15,6 +15,10 @@ rex_chapter = re.compile(r"{\\mychapter{(.+)}{(.+)}\\label{ch:(.+)}}")
 rex_section = re.compile(r"{\\section{(.+)}\\label{sec:(.+):(.+)}}")
 rex_text = re.compile(r"\\vspace{5mm}\\begin{samepage}(.+)\\\\")
 
+rex_index = re.compile(r"\\index{(.+)}%")
+rex_escaped_pound = re.compile(r"\\#")
+rex_bang = re.compile(r"!")
+
 rex_digits = re.compile(r"\d")
 rex_doubleunder = re.compile(r"__")
 
@@ -70,13 +74,19 @@ def get_melody_string(title, counter):
     inc_counter = '#(inc-counter)\n'
     markup_toc = '\\tocItem \\markupTocItem \\counter \\' + title + '\n'
     markup_melody = '\\markupMelody \\counter \\' + title + '_score\n'
-
-    # index_item_title = '\\indexItem \\indexTitleString \\counter \\' + title + '\n'
-    # index_item_composer = '\\indexItem \\indexComposerString \\counter \\' + title + '\n'
-    # index_item = '\\indexItem \\counter \\' + title + '\n'
-    # + index_item_title + index_item_composer +
-
     return counter_comment + inc_counter + markup_toc + markup_melody
+
+def get_index_string(index_match):
+    # substitute # for \#
+    entry = rex_escaped_pound.sub("#", index_match.group(1))
+
+    # ugh: we replace '!' since it separates composer from title
+    # but some titles have '!' in them, so we've add an extra '!' at the start
+    # so we can always replace the first one, but then we have to remove the ", "
+    entry2 = rex_bang.sub(", ", entry, count=1)
+    entry3 = entry2[2:] if entry2[0:2] == ", " else entry2
+
+    return "\\indexItem \\indexString \\counter \"" + entry3 + "\"\n"
 
 def main():
     counter = 0
@@ -112,6 +122,11 @@ def main():
                         target.write(get_melody_string(title2, counter))
 
                     continue
+
+            index_match = rex_index.search(line)
+            if index_match:
+                target.write(get_index_string(index_match))
+                continue
 
             chapter_match = rex_chapter.search(line)
             if chapter_match:
