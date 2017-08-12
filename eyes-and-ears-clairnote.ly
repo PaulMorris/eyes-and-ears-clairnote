@@ -76,4 +76,12 @@ inc-counter = #(lambda () (set! counter (+ 1 counter)))
 
 \include "thematic_index.ily"
 
-\markuplist \index-markup-list
+\bookpart {
+
+  \header {
+    chapter-number = "Index"
+    chapter-title = "Index"
+  }
+  
+  \markuplist \index-markup-list
+}
