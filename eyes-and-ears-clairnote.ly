@@ -47,8 +47,8 @@
   \override Score.BarNumber.break-visibility = #all-invisible
 }
 
-\include "copyright_page.ily"
 \include "cover_page.ily"
+\include "copyright_page.ily"
 
 \include "tocb_init.ily"
 \include "melody_includes.ily"
