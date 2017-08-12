@@ -53,8 +53,7 @@
 \include "tocb_init.ily"
 \include "melody_includes.ily"
 
-% The index is a work in progress.
-% \include "index_init.ily"
+\include "index_init.ily"
 
 \include "functions_toc.ily"
 \include "functions_book_content.ily"
@@ -77,5 +76,4 @@ inc-counter = #(lambda () (set! counter (+ 1 counter)))
 
 \include "thematic_index.ily"
 
-% The index is a work in progress.
-% \markuplist \index-markup-list
+\markuplist \index-markup-list
