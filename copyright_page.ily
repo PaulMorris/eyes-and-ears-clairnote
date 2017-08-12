@@ -4,7 +4,7 @@ copyrightPage =
 \markup {
   \column {
 
-    \line { \combine \null \vspace #17 }
+    \line { \combine \null \vspace #16 }
 
     \line { This Clairnote version is copyright ©2017 Paul Morris.}
     \line { All rights reserved. }
@@ -17,10 +17,12 @@ copyrightPage =
     \line { " " }
     \wordwrap {
       The ways in which the Clairnote version differs from the original version include the following.
-      The Clairnote version has no footnotes, no index (by title and composer), and no indications that a melody is famous.
-      The thematic index only includes melody numbers (not page numbers).
+      The Clairnote version has no text to indicate that a given melody is famous
+      and no footnotes to indicate titles and composers of melodies (refer to the table of contents instead).
+      The thematic index only includes melody numbers, not page numbers.
       Sections of chapters do not automatically start on a new page.
-      A few sentences that were not relevant to Clairnote music notation have been omitted from the introduction to chapter six (The C Clef).
+      A few sentences that were not relevant to Clairnote music notation
+      have been omitted from the introduction to chapter six (The C Clef).
     }
     \line { " " }
     \line { " " }
