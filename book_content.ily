@@ -284,7 +284,7 @@ footer-text-odd = "Major Keys"
 \indexItem \indexString \counter "Latour, Pierre, Beautiful Angel, The"
 \indexItem \indexString \counter "Beautiful Angel, The, Pierre Latour"
 
-\markupText \markup \wordwrap {Note that the following two examples both have the tonic on the line at the center of the staff, so the one with five sharps actually isn't any more difficult to read.}
+\markupText \markup \wordwrap {(In standard notation the following two examples would both have the tonic on the same staff line. Clairnote makes it apparent that their tonic notes are a half-step apart.)}
 \noPageBreak
 % 36
 #(inc-counter)
@@ -323,7 +323,7 @@ footer-text-odd = "Major Keys"
 \markupMelody \counter \x_crowell_nine_score
 \indexItem \indexString \counter "Crowell, B., D-flat, 4/4"
 
-\markupText \markup \wordwrap {The following two melodies both have the tonic at the same place on the staff.}
+\markupText \markup \wordwrap {(In standard notation the following two melodies both have the tonic at the same place on the staff.  Clairnote makes it apparent that their tonic notes are a half-step apart.)}
 \noPageBreak
 % 42
 #(inc-counter)

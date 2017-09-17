@@ -23,6 +23,7 @@ copyrightPage =
       Sections of chapters do not automatically start on a new page.
       A few sentences that were not relevant to Clairnote music notation
       have been omitted from the introduction to chapter six (The C Clef).
+      The texts describing melodies 36, 37, 42, and 43 have been modified to reflect the Clairnote staff.
     }
     \line { " " }
     \line { " " }
