@@ -2009,7 +2009,7 @@ footer-text-odd = "Other Diatonic Materials"
 \markupSection "4" "6" "Other Perfect Fourths and Fifths"
 \noPageBreak
 
-\markupText \markup \wordwrap {We've already sung leaps of a fourth and a fifth within the tonic, dominant, and subdominant chords, and those leaps strongly implied their chords. For instance, it's difficult to hear the `so-re' leap without perceiving a dominant chord. Although other leaps of a fourth or a fifth may imply other triads, in real music they are more commonly produced not by the harmony but by the logic of the melody itself. In the first example, the composer simply wants to repeat a molodic idea at a different pitch. The `la' is easily sung by thinking of it in relation to the `do' it leads up to.}
+\markupText \markup \wordwrap {We've already sung leaps of a fourth and a fifth within the tonic, dominant, and subdominant chords, and those leaps strongly implied their chords. For instance, it's difficult to hear the `so-re' leap without perceiving a dominant chord. Although other leaps of a fourth or a fifth may imply other triads, in real music they are more commonly produced not by the harmony but by the logic of the melody itself. In the first example, the composer simply wants to repeat a melodic idea at a different pitch. The `la' is easily sung by thinking of it in relation to the `do' it leads up to.}
 \noPageBreak
 % 322
 #(inc-counter)
